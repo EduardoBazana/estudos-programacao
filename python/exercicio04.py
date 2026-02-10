@@ -1,0 +1,10 @@
+#Pedir Um  Variável Ao Usuário, E Mostrar informações Sobre Ela!
+palavra=input('Digite Alguma Coisa:\n')
+print('A Palavra E Da Classe:', type(palavra))
+print('So Tem Espaços:', palavra.isspace())
+print('É Um Número:', palavra.isnumeric())
+print('E Alfabético:', palavra.isalpha())
+print('E Alfanúmerico:', palavra.isalnum())
+print('Está em Maiúscula:', palavra.isupper())
+print('Está em Minúscula:', palavra.islower())
+print('Está Capitalizado:', palavra.istitle)
